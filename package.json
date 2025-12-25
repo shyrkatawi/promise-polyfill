@@ -1,0 +1,35 @@
+{
+  "name": "promise-polyfill",
+  "version": "1.0.0",
+  "description": "promise polyfill based on https://promisesaplus.com/",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "promises-aplus-tests": "npx tsx run-tests.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shyrkatawi/promise-polyfill.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shyrkatawi/promise-polyfill/issues"
+  },
+  "homepage": "https://github.com/shyrkatawi/promise-polyfill#readme",
+  "devDependencies": {
+    "@eslint/js": "^9.33.0",
+    "@types/jest": "^29.5.14",
+    "@types/node": "^24.3.0",
+    "@typescript-eslint/eslint-plugin": "^8.39.1",
+    "@typescript-eslint/parser": "^8.39.1",
+    "eslint": "^9.33.0",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-prettier": "^5.5.4",
+    "prettier": "^3.6.2",
+    "promises-aplus-tests": "2.1.2",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.2"
+  }
+}
